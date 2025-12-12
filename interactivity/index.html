@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>interactivity to a webpage </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="layout">
+        <header class="header">
+            <div class="logo">My interactivity to a webpage Project</div>
+            <nav class="nav">
+                 <a href="#dropdown-section">Dropdown</a>
+                <a href="#modal-section">Modal</a>
+                <a href="#form-section">Form</a>
+            </nav>
+        </header>
+
+        <aside class="sidebar">
+            <h2>side bar</h2>
+            <ul>
+                <li>Responsive Design</li>
+                <li>Flexbox & Grid</li>
+                <li>Javascript</li>
+                <li>form validation</li>
+            </ul>
+           </aside>
+
+           <main class="main">
+            <section id="dropdown-section" class="card">
+                <h2>Interactive Dropdown</h2>
+                <p>Select any option from the dropdown:</p>
+                <select id="dropdown">
+                    <option value="">-- Select an option --</option>
+                    <option value="Front-end Developer">Front-end Developer</option>
+                    <option value="Back-end Developer">Back-end Developer</option>
+                    <option value="Full Stack Developer">Full Stack Developer</option>
+                    <option value="Java Developer">Java Developer</option>
+                    <option value="Python Developer">Python Developer</option>
+                    <option value="Node.js Developer">Node.js Developer</option>
+                    <option value="Application Developer">Application Developer</option>
+                    <option value="Software Engineer">Software Engineer</option>
+                </select>
+                <p id="dropdownResult" class="info-text"></p>
+            </section>
+
+            <section id="model-section" class="card">
+                <h2>Modal Popup</h2>
+                <p>Click the button below to open a modal:</p>
+                <button id="openModalBtn" class="btn">Open Modal</button>
+            </section>
+
+            <section id="form-section" class="card">
+                <h2>Contact Form (Validation)</h2>
+                <form id="contactForm" novalidate>
+                    <div class="form-group">
+                        <label for="name">Name *</label>
+                        <input type="text" id="name" placeholder="Enter your name">
+                        <small class="error" id="nameError"></small>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email *</label>
+                        <input type="email" id="email" placeholder="Enter your email">
+                        <small class="error" id="emailError"></small>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Message *</label>
+                        <textarea id="message" placeholder="Write your message"></textarea>
+                        <small class="error" id="messageError"></small>
+                    </div>
+
+                    <button type="submit" class="btn">Submit</button>
+                    <p id="formSuccess" class="success"></p>
+                </form>
+            </section>
+           </main>
+
+           <footer class="footer">
+            <p>Responsive Web Design + JavaScript Interactivity Project</p>
+        </footer>
+    </div>
+
+    <div id="modalOverlay" class="modal-overlay">
+        <div class="modal">
+            <h3>Hi Developer 👋</h3>
+            <p>This is a basic modal created using JavaScript.</p>
+            <button id="closeModalBtn" class="btn btn-outline">Close</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
