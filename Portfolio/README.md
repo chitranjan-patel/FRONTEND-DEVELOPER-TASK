@@ -1,3 +1,6 @@
+
+[← Back to Main Dashboard](../README.md)
+
 # Portfolio — Chitranjan Kumar Patel
 
 A personal portfolio website showcasing skills, projects, and contact information.

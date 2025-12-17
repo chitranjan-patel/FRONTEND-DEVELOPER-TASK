@@ -1,3 +1,6 @@
+
+[← Back to Main Dashboard](../README.md)
+
 # My Static Website
 
 A simple and responsive static website built using HTML & CSS. It includes multiple pages:

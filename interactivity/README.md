@@ -1,3 +1,6 @@
+
+[← Back to Main Dashboard](../README.md)
+
 # Interactivity to a Webpage Project
 
 A project showcasing JavaScript interactivity, features include:

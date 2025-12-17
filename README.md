@@ -1,19 +1,53 @@
-# Frontend Developer Task
+# Frontend Developer Task Submission
 
-This repository contains various frontend development projects and tasks.
+**Submitted by:** Chitranjan Kumar Patel
 
-## Projects
+Hello! This repository contains my submission for the Frontend Developer challenge. I have implemented all the required tasks, ranging from a personal portfolio to interactive JavaScript applications.
 
-1. **[Portfolio](./Portfolio)**: A personal portfolio website.
-2. **[Responsive Design](./Responsive%20design)**: A project demonstrating responsive web design with Flexbox and Grid.
-3. **[Interactivity](./interactivity)**: A project showcasing JavaScript interactivity (Dropdowns, Modals, Forms).
-4. **[My Static Website](./simple)**: A simple multi-page static website.
-5. **[To-Do App](./todo-app)**: A functional To-Do List application.
+## 🚀 Live Demo
 
-## How to Run
+You can view the main dashboard linking to all projects here:
 
-Navigate to each project folder and follow the instructions in their respective `README.md` files to run them locally. Generally, you can simply open the `index.html` file in your browser.
+### [👉 View Live Project Dashboard](https://chitranjan-patel.github.io/FRONTEND-DEVELOPER-TASK/)
 
-## Live Links
+*(Note: If the link gives a 404, please enable GitHub Pages in Settings > Pages > Source: "Deploy from a branch" > Branch: "main" > Save.)*
 
-Please refer to the individual project READMEs for live deployment links.
+---
+
+## 📂 Project Overview
+
+| Project Name | Description | Tech Stack | Live Link |
+|--------------|-------------|------------|-----------|
+| **[Portfolio](./Portfolio)** | Personal portfolio website with bio, skills, and projects. | HTML, CSS | [View](./Portfolio) |
+| **[Responsive Design](./Responsive%20design)** | Modern layout demonstration using Flexbox & Grid. | HTML, CSS (Flex/Grid) | [View](./Responsive%20design) |
+| **[Interactivity](./interactivity)** | JavaScript DOM manipulation examples (Modal, Dropdown, Form). | HTML, CSS, JS | [View](./interactivity) |
+| **[Static Website](./simple)** | Simple multi-page static site structure. | HTML, CSS | [View](./simple) |
+| **[To-Do App](./todo-app)** | Functional task management application. | HTML, CSS, JS | [View](./todo-app) |
+
+## 🛠️ How to Run Locally
+
+You can simply open the `index.html` file in the root directory, or run a local server:
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/chitranjan-patel/FRONTEND-DEVELOPER-TASK.git
+   ```
+
+2. **Navigate to the directory**:
+   ```bash
+   cd FRONTEND-DEVELOPER-TASK
+   ```
+
+3. **Start a Local Server** (using Python):
+   ```bash
+   python -m http.server 5500
+   ```
+
+4. **Open in Browser**:
+   Visit `http://localhost:5500` to see the main dashboard.
+
+---
+
+### 📬 Contact
+- **Email**: [chitranjanpatel471@gmail.com](mailto:chitranjanpatel471@gmail.com)
+- **GitHub**: [chitranjan-patel](https://github.com/chitranjan-patel)
