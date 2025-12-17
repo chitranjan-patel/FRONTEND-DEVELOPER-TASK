@@ -23,6 +23,7 @@ You can view the main dashboard linking to all projects here:
 | **[Interactivity](./interactivity)** | JavaScript DOM manipulation examples (Modal, Dropdown, Form). | HTML, CSS, JS | [View](./interactivity) |
 | **[Static Website](./simple)** | Simple multi-page static site structure. | HTML, CSS | [View](./simple) |
 | **[To-Do App](./todo-app)** | Functional task management application. | HTML, CSS, JS | [View](./todo-app) |
+| **[Multiple Disease Prediction](https://github.com/chitranjan-patel/Multiple-Disease-Prediction)** | ML-based prediction for Diabetes, Heart Disease, Parkinson's. | Python, Streamlit, ML | [View Repo](https://github.com/chitranjan-patel/Multiple-Disease-Prediction) |
 
 ## 🛠️ How to Run Locally
 

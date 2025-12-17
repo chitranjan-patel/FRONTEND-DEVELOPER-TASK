@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,22 +17,26 @@
             align-items: center;
             min-height: 100vh;
         }
+
         header {
             background-color: #2c3e50;
             color: white;
             width: 100%;
             padding: 2rem 0;
             text-align: center;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
         }
+
         h1 {
             margin: 0;
             font-size: 2.5rem;
         }
+
         p {
             opacity: 0.8;
             margin-top: 0.5rem;
         }
+
         main {
             max-width: 800px;
             width: 90%;
@@ -40,11 +45,12 @@
             gap: 1.5rem;
             grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
         }
+
         .card {
             background: white;
             padding: 1.5rem;
             border-radius: 8px;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
             transition: transform 0.2s, box-shadow 0.2s;
             text-decoration: none;
             color: inherit;
@@ -52,19 +58,23 @@
             flex-direction: column;
             justify-content: space-between;
         }
+
         .card:hover {
             transform: translateY(-5px);
-            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
         }
+
         .card h2 {
             margin-top: 0;
             color: #3498db;
         }
+
         .card p {
             font-size: 0.95rem;
             line-height: 1.5;
             color: #666;
         }
+
         .tag {
             display: inline-block;
             background-color: #e1ecf4;
@@ -75,6 +85,7 @@
             margin-top: 1rem;
             align-self: flex-start;
         }
+
         footer {
             margin-top: auto;
             padding: 1rem;
@@ -83,6 +94,7 @@
         }
     </style>
 </head>
+
 <body>
 
     <header>
@@ -130,6 +142,14 @@
             </div>
             <span class="tag">JS Application</span>
         </a>
+
+        <a href="https://github.com/chitranjan-patel/Multiple-Disease-Prediction" target="_blank" class="card">
+            <div>
+                <h2>Multiple Disease Prediction ↗</h2>
+                <p>Machine Learning app (Python/Streamlit) for predicting Diabetes, Heart Disease, and Parkinson's.</p>
+            </div>
+            <span class="tag">Python AI/ML</span>
+        </a>
     </main>
 
     <footer>
@@ -137,4 +157,5 @@
     </footer>
 
 </body>
+
 </html>
