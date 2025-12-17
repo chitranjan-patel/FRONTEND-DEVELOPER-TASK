@@ -24,6 +24,7 @@ You can view the main dashboard linking to all projects here:
 | **[Static Website](./simple)** | Simple multi-page static site structure. | HTML, CSS | [View](./simple) |
 | **[To-Do App](./todo-app)** | Functional task management application. | HTML, CSS, JS | [View](./todo-app) |
 | **[Multiple Disease Prediction](https://github.com/chitranjan-patel/Multiple-Disease-Prediction)** | ML-based prediction for Diabetes, Heart Disease, Parkinson's. | Python, Streamlit, ML | [View Repo](https://github.com/chitranjan-patel/Multiple-Disease-Prediction) |
+| **[Fullstack Task Manager](./fullstack-task-manager-real)** | MERN Stack Task Management App (Client + Server). | MongoDB, Express, React, Node | [View](./fullstack-task-manager-real) |
 
 ## 🛠️ How to Run Locally
 
