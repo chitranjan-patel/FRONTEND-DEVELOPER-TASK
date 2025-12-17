@@ -2,6 +2,10 @@
 
 A complete MERN Stack (MongoDB, Express, React, Node.js) application for managing tasks.
 
+## 🌐 Live Demo
+- **frontend**: [Your Vercel App Link](https://fullstack-task-manager-real.vercel.app) *(Update if different)*
+- **backend**: [https://fullstack-task-manager-real-2.onrender.com](https://fullstack-task-manager-real-2.onrender.com)
+
 ## 📁 Structure
 - **backend**: Node.js & Express API connected to MongoDB.
 - **frontend**: React application (Vite) consuming the API.
