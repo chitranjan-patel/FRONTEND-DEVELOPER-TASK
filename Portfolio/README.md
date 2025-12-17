@@ -2,13 +2,12 @@
 
 A personal portfolio website showcasing skills, projects, and contact information.
 
-## How to Run Locally
+## Local Host
 
-1. Clone the repository or download the files.
-2. Open the `Reference` directory (if applicable) or navigate to this folder.
-3. Open `index.html` in your preferred web browser (Chrome, Firefox, Edge, etc.).
-   
-   *Alternatively, you can use a Live Server extension in VS Code to run it.*
+You can run this project locally using VS Code's Live Server:
+[http://localhost:5500/Portfolio/index.html](http://localhost:5500/Portfolio/index.html)
+
+Or simply open the `index.html` file in your browser.
 
 ## Live Link
 

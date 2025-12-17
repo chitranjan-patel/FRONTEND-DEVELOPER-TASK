@@ -2,13 +2,12 @@
 
 A project demonstrating responsive layout techniques using CSS Flexbox and Grid. Includes a responsive navbar, hero section, and gallery.
 
-## How to Run Locally
+## Local Host
 
-1. Clone the repository or download the files.
-2. Navigate to this folder.
-3. Open `index.html` in your preferred web browser.
+You can run this project locally using VS Code's Live Server:
+[http://localhost:5500/Responsive%20design/index.html](http://localhost:5500/Responsive%20design/index.html)
 
-   *Alternatively, you can use a Live Server extension in VS Code to run it.*
+Or simply open the `index.html` file in your browser.
 
 ## Live Link
 
