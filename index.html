@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend Developer Tasks - Chitranjan Kumar Patel</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+        }
+        header {
+            background-color: #2c3e50;
+            color: white;
+            width: 100%;
+            padding: 2rem 0;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        p {
+            opacity: 0.8;
+            margin-top: 0.5rem;
+        }
+        main {
+            max-width: 800px;
+            width: 90%;
+            margin: 2rem auto;
+            display: grid;
+            gap: 1.5rem;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        }
+        .card {
+            background: white;
+            padding: 1.5rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+            transition: transform 0.2s, box-shadow 0.2s;
+            text-decoration: none;
+            color: inherit;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        .card h2 {
+            margin-top: 0;
+            color: #3498db;
+        }
+        .card p {
+            font-size: 0.95rem;
+            line-height: 1.5;
+            color: #666;
+        }
+        .tag {
+            display: inline-block;
+            background-color: #e1ecf4;
+            color: #39739d;
+            padding: 0.2rem 0.6rem;
+            border-radius: 4px;
+            font-size: 0.8rem;
+            margin-top: 1rem;
+            align-self: flex-start;
+        }
+        footer {
+            margin-top: auto;
+            padding: 1rem;
+            color: #888;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Frontend Developer Tasks</h1>
+        <p>A collection of frontend projects by Chitranjan Kumar Patel</p>
+    </header>
+
+    <main>
+        <a href="./Portfolio/index.html" class="card">
+            <div>
+                <h2>Portfolio Website</h2>
+                <p>A personal portfolio website showcasing skills, projects, and contact information.</p>
+            </div>
+            <span class="tag">HTML/CSS</span>
+        </a>
+
+        <a href="./Responsive%20design/index.html" class="card">
+            <div>
+                <h2>Responsive Design</h2>
+                <p>A demonstration of modern responsive layout techniques using CSS Flexbox and Grid.</p>
+            </div>
+            <span class="tag">CSS Layouts</span>
+        </a>
+
+        <a href="./interactivity/index.html" class="card">
+            <div>
+                <h2>Interactivity Project</h2>
+                <p>Showcases JavaScript features like Modals, Dropdowns, and Form Validation.</p>
+            </div>
+            <span class="tag">JavaScript DOM</span>
+        </a>
+
+        <a href="./simple/index.html" class="card">
+            <div>
+                <h2>Static Website</h2>
+                <p>A simple multi-page static website structure (Home, About, Contact).</p>
+            </div>
+            <span class="tag">Basic HTML</span>
+        </a>
+
+        <a href="./todo-app/index.html" class="card">
+            <div>
+                <h2>To-Do App</h2>
+                <p>A functional To-Do List application with task management features.</p>
+            </div>
+            <span class="tag">JS Application</span>
+        </a>
+    </main>
+
+    <footer>
+        &copy; 2025 Chitranjan Kumar Patel
+    </footer>
+
+</body>
+</html>
